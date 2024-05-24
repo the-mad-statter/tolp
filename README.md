@@ -47,6 +47,17 @@ install.packages("pak", repos = sprintf("https://r-lib.github.io/p/pak/stable/%s
 
 <br />
 
+## Usage
+
+``` r
+library(tolp)
+my_tolp_data <- tolp()
+```
+
+![](man/figures/usage.gif)
+
+<br />
+
 ## Code of Conduct
 
 Please note that the tolp project is released with a [Contributor Code
