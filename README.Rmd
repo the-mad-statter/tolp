@@ -1,0 +1,75 @@
+---
+output: github_document
+params:
+  github: the-mad-statter
+  package: tolp
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%",
+  eval = FALSE
+)
+```
+
+# `r params$package` <img src="man/figures/logo.png" align="right" width="125px" />
+
+<!-- badges: start -->
+`r badger::badge_repostatus("WIP")`
+`r badger::badge_lifecycle("experimental")`
+`r badger::badge_last_commit(branch = "main")`
+`r badger::badge_license()`
+<br />
+`r badger::badge_github_actions(action = "style")`
+`r badger::badge_github_actions(action = "lint")`
+`r badger::badge_github_actions(action = "test-coverage")`
+`r badger::badge_codecov(branch = "main")`
+`r badger::badge_github_actions(action = "r-cmd-check")`
+<!-- badges: end -->
+
+## Overview
+
+The goal of ``r params$package`` is to provide a locally hosted Shiny web application to extract numerical data from plot images.
+
+<br />
+
+## Installation
+
+You can install ``r params$package`` from [GitHub](https://github.com/`r params$github`/`r params$package`) with:
+
+```r
+pak::pkg_install("`r params$github`/`r params$package`")
+```
+
+If necessary `pak` can be installed with:
+
+```r
+install.packages("pak", repos = sprintf("https://r-lib.github.io/p/pak/stable/%s/%s/%s", .Platform$pkgType, R.Version()$os, R.Version()$arch))
+```
+
+<br />
+
+## Code of Conduct
+
+Please note that the `r params$package` project is released with a [Contributor Code of Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html). By contributing to this project, you agree to abide by its terms.
+
+<br />
+
+## Code Style
+
+This package attempts to follow the [tidyverse style guide](https://style.tidyverse.org/index.html).
+
+The use of [{styler}](https://github.com/r-lib/styler) and [{lintr}](https://github.com/r-lib/lintr) are recommended.
+
+<br />
+
+## About
+
+### Washington University in Saint Louis <img src="man/figures/brookings_seal.png" align="right" width="125px"/>
+
+Established in 1853, [Washington University in Saint Louis](https://www.wustl.edu) is among the world's leaders in teaching, research, patient care, and service to society. Boasting 24 Nobel laureates to date, the University is ranked 7th in the world for most cited researchers, received the 4th highest amount of NIH medical research grants among medical schools in 2019, and was tied for 1st in the United States for genetics and genomics in 2018. The University is committed to learning and exploration, discovery and impact, and intellectual passions and challenging the unknown.

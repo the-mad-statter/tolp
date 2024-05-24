@@ -1,0 +1,4 @@
+Name: tolp
+Description: Shiny App to reverse engineer data plots
+Binding: tolp
+Interactive: true

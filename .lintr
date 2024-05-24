@@ -1,0 +1,6 @@
+exclusions: list(
+    "R/tolp.R" = list(
+      line_length_linter = 76:357,
+      cyclocomp_linter = 76:375
+    )
+  )
